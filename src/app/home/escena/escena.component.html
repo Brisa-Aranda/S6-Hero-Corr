@@ -1,0 +1,17 @@
+<div class="container">
+  <div id="button-wrapper">
+    <button (click)="delayButton()">Anterior</button>
+    <button (click)="advanceButton()">Següent</button>
+  </div>
+  <ul>
+    <li *ngFor="let sentence of sentenceArray; index as i"
+         [class.colorWhite]="currentSentence != i"
+         [class.colorPink]="currentSentence === i"
+    >
+        {{ sentence.sentence }} 
+    </li>
+</ul>
+</div>
+
+
+

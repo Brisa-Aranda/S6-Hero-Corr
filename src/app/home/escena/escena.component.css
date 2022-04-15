@@ -1,0 +1,36 @@
+.container{
+    height:100vh;
+    background-image: url('../../../assets/img/img1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(7, 7, 7);
+}
+
+button{
+    width: 50%;
+    height: 60px;
+}
+
+
+li{
+    list-style: none;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(255,255,255, 0.5);
+}
+
+.colorPink{
+    background-color: pink;
+}
+.colorWhite{
+    background-color: white;
+}
+
+
+
+
+

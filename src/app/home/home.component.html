@@ -1,0 +1,10 @@
+<div class="container" *ngIf ="show === false">
+    <div id="center">
+        <app-text-home [textHome]="textHome"></app-text-home>
+
+        <button class="btn" (click)="start()">Endavant!</button>
+    </div>
+</div>
+
+<app-escena *ngIf="show===true"></app-escena>
+
